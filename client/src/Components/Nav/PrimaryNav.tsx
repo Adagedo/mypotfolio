@@ -1,7 +1,5 @@
 import { BsGithub } from "react-icons/bs";
-import { GrFacebookOption } from "react-icons/gr";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 import { IoLocationOutline } from "react-icons/io5";
 import { AiOutlineMail } from "react-icons/ai";
 import { MdOutlineLocalPhone } from "react-icons/md";
@@ -19,19 +17,7 @@ function PrimaryNav() {
 							<BsGithub className="text-[0.7rem] hover:text-green-cool transition-all duration-300" />
 						</a>
 						<a
-							href="https://www.facebook.com/codewitgabi.dev"
-							target="_blank"
-							rel="noopener noreferrer">
-							<GrFacebookOption className="text-[0.7rem] hover:text-green-cool transition-all duration-300" />
-						</a>
-						<a
-							href="https://twitter.com/codewitgabi1"
-							target="_blank"
-							rel="noopener noreferrer">
-							<FaXTwitter className="text-[0.7rem] hover:text-green-cool transition-all duration-300" />
-						</a>
-						<a
-							href="https://www.linkedin.com/in/codewitgabi"
+							href="https://www.linkedin.com/in/adagedo-solomon"
 							target="_blank"
 							rel="noopener noreferrer">
 							<FaLinkedinIn className="text-[0.7rem] hover:text-green-cool transition-all duration-300" />
